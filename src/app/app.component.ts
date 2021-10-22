@@ -9,6 +9,6 @@ export class AppComponent implements OnInit {
   name = 'Hera';
 
   ngOnInit(): void {
-    console.log(`Example application initialized with name: ${name}`);
+    console.log(`Example application initialized with name: ${this.name}`);
   }
 }
